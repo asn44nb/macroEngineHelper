@@ -21,4 +21,4 @@ scoreboard objectives add ameh.data dummy
 # ── AME presence check ───────────────────────────────────────────
 # #ame.ver_set scores 1 on ame.pre_version when AME loaded cleanly.
 execute unless score #ame.ver_set ame.pre_version matches 1 run function ameh:internal/load_fail
-execute if     score #ame.ver_set ame.pre_version matches 1 run function ameh:internal/load_ok
+execute if score #ame.ver_set ame.pre_version matches 1 run function ameh:internal/load_ok
