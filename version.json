@@ -1,0 +1,13 @@
+{
+  "release": "v1.0.0",
+  "semver": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "mc_target": "1.21.4",
+  "pack_format": 61,
+  "requires": {
+    "macroEngine": ">=4.0.0"
+  }
+}
